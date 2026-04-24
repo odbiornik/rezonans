@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REZONANS – Wirtualna Galeria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Full Page Exhibition -->
+    <section class="full-page">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Sygnały wysyłane w próżnię</h1>
+            </div>
+        </div>
+
+        <div class="subtitle-section">
+            <p class="intro-subtitle">Czy po drugiej stronie jest ktoś, kto odbiera na tych samych częstotliwościach?</p>
+        </div>
+
+        <div class="introduction">
+            <div class="intro-text">
+                <p>Bez mowy bylibyśmy niczym. Zatopieni w introspekcji, pozostalibyśmy zamkniętymi układami, bez możliwości kontaktu ze światem. Mowa jest rodzajem kodowania: w ruchach mięśni, w tchnieniach powietrza i artykulacji nadajemy kształt naszym myślom. Te harmoniczne oscylacje w niezrozumiały wciąż sposób przemierzają przestrzeń, by otworzyć przed innymi tajemnice naszego wnętrza. To jeden z najwyższych stopni uporządkowania wszechświata.</p>
+
+                <p>Jednak mowa to coś więcej niż drgania strun głosowych. Staje się nią wszystko, czym wpływamy na rzeczywistość: gest, ruch w czasoprzestrzeni, muzyka czy plastyka. Największa potęga często wynika z zaskakującej prostoty – mówi to istota, której geny budują zaledwie cztery elementarne cegiełki. Ten zbiór to romans z ową prostotą. To próba przetłumaczenia na język wizualny tego, co wymyka się definicjom; zapis dialogu między surową formą a kruchą ludzką psychiką.</p>
+
+                <p>Jesteśmy ograniczeni. Każdy z nas, zamknięty we własnej rzeczywistości, szuka punktów styku z tym, co transcendentne – tam, gdzie kończy się precyzyjna matematyka natury, a zaczyna lęk przed nieznanym. Gdzie technologia przestaje być tylko narzędziem, a staje się nowym sposobem naszego istnienia. Te grafiki to sygnały wysyłane w próżnię, by sprawdzić, czy po drugiej stronie jest ktoś, kto odbiera na tych samych częstotliwościach. To mój sposób na to, by w świecie pełnym danych, procedur i szumu, ocalić to, co najbardziej intymne i niewyrażalne.</p>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Przewiń, aby zobaczyć ekspozycję</span>
+                <div class="arrow">↓</div>
+            </div>
+        </div>
+
+        <div class="gallery-section">
+            <div class="section-header">
+                <h2>Ekspozycja</h2>
+                <p>Osiem prac artystycznych</p>
+            </div>
+
+            <div class="gallery">
+            <!-- Artwork 1 -->
+            <div class="artwork-item" onclick="openArtwork(this)">
+                <div class="artwork-image">
+                    <img src="(Nie)zwyciężony/(Nie)zwyciężony.png" alt="(Nie)zwyciężony">
+                </div>
+                <div class="artwork-info">
+                    <h3>(Nie)zwyciężony</h3>
+                    <p class="artwork-preview">Studium kruchości – lekarza, który może stać się ofiarą, i pacjenta, który ginie w chorobie.</p>
+                </div>
+            </div>
+
+            <!-- Artwork 2 -->
+            <div class="artwork-item" onclick="openArtwork(this)">
+                <div class="artwork-image">
+                    <img src="Bicie Serca/Bicie Serca.png" alt="Bicie Serca">
+                </div>
+                <div class="artwork-info">
+                    <h3>Bicie Serca</h3>
+                    <p class="artwork-preview">Dowód na obecność. Fundament, na którym budujemy całą naszą rzeczywistość.</p>
+                </div>
+            </div>
+
+            <!-- Artwork 3 -->
+            <div class="artwork-item" onclick="openArtwork(this)">
+                <div class="artwork-image">
+                    <img src="BRAF 1799/BRAF 1799.png" alt="BRAF 1799">
+                </div>
+                <div class="artwork-info">
+                    <h3>BRAF 1799</h3>
+                    <p class="artwork-preview">Historia o tym, jak precyzyjnie dostrojona maszyneria potrafi obrócić się przeciwko sobie.</p>
+                </div>
+            </div>
+
+            <!-- Artwork 4 -->
+            <div class="artwork-item" onclick="openArtwork(this)">
+                <div class="artwork-image">
+                    <img src="Cremona/Cremona.png" alt="Cremona">
+                </div>
+                <div class="artwork-info">
+                    <h3>Cremona</h3>
+                    <p class="artwork-preview">Lęk o przyszłość gatunku, gdy ludzka unikalność traci swój kształt.</p>
+                </div>
+            </div>
+
+            <!-- Artwork 5 -->
+            <div class="artwork-item" onclick="openArtwork(this)">
+                <div class="artwork-image">
+                    <img src="Fibonacci 333/Fibonacci 333.png" alt="Fibonacci 333">
+                </div>
+                <div class="artwork-info">
+                    <h3>Fibonacci 333</h3>
+                    <p class="artwork-preview">Medytacja nad zasadą antropiczną i matematycznym cudem wszechświata.</p>
+                </div>
+            </div>
+
+            <!-- Artwork 6 -->
+            <div class="artwork-item" onclick="openArtwork(this)">
+                <div class="artwork-image">
+                    <img src="Leki/Leki.png" alt="Leki">
+                </div>
+                <div class="artwork-info">
+                    <h3>Leki</h3>
+                    <p class="artwork-preview">Mapa substancji, które codziennie modyfikują biologię milionów ludzi.</p>
+                </div>
+            </div>
+
+            <!-- Artwork 7 -->
+            <div class="artwork-item" onclick="openArtwork(this)">
+                <div class="artwork-image">
+                    <img src="Przysięga Hipokartesa/Przysięga Hipokratesa.png" alt="Przysięga Hipokratesa">
+                </div>
+                <div class="artwork-info">
+                    <h3>Przysięga Hipokratesa</h3>
+                    <p class="artwork-preview">Fascynacja postępem i drogą od ziół do precyzyjnej inżynierii genetycznej.</p>
+                </div>
+            </div>
+
+            <!-- Artwork 8 -->
+            <div class="artwork-item" onclick="openArtwork(this)">
+                <div class="artwork-image">
+                    <img src="Pustka Pełna/Pustka Pełna.png" alt="Pustka Pełna">
+                </div>
+                <div class="artwork-info">
+                    <h3>Pustka Pełna</h3>
+                    <p class="artwork-preview">Studium stanu, który nigdy nie nadejdzie: idealnego zera.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Artwork Detail Modal -->
+    <div id="artworkModal" class="modal" onclick="closeArtworkIfClickedOutside(event)">
+        <button class="modal-close" onclick="closeArtwork()">×</button>
+        <button class="modal-nav prev" onclick="previousArtwork()">‹</button>
+        <button class="modal-nav next" onclick="nextArtwork()">›</button>
+        
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-image">
+                <img id="modalImage" src="" alt="">
+            </div>
+            <div class="modal-text">
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Maksymilian Łebek, <span id="year"></span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
